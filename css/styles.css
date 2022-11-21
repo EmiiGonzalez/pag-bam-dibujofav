@@ -158,7 +158,7 @@ section{
   background-position: center;
   background-repeat: no-repeat;
 }
-.personajes-tittle{
+.personajes-tittle, .tittle{
   text-align: center;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -226,3 +226,80 @@ section{
   width: 100%;
 }
 /*Fin personajes*/
+
+/*Capitulos inicio*/
+
+.capitulos{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/Simple\ Shiny.svg) no-repeat center /cover;
+}
+.capitulos .line-p{
+  width: 15%;
+  background-color: #f635cc;
+}
+.capitulos-lista{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.capitulos-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  padding: .8rem;
+  border-radius: 20px;
+  transition: all 150ms;
+}
+.capitulos-container:hover{
+  box-shadow: 0px 0px 23px 3px rgba(0,0,0,0.75);
+}
+.capitulo{
+  width: 60%;
+  height: 100%;
+}
+.capitulo-info{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.capitulo-info h3{
+  color: rgba(255, 221, 255, 0.867);
+  font-size: calc(.5rem + 1vw);
+  text-align: center;
+  font-family: 'Roboto Serif', serif;
+  width: 100%;
+}
+.btn2{
+  font-size: 1.3rem;
+  color: white;
+  padding: .5rem 1rem;
+  background-color: #177513;
+  text-decoration: none;
+  font-family: "Creepster", cursive;
+  border-radius: 20px;
+  transition: all 300ms;
+}
+.btn2:hover{
+  transform: scale(1.15);
+  background-color: #f635cc;
+}
+.capitulo-img{
+  width: 90%;
+  height: 100%;
+  border-radius: 50px;
+}
