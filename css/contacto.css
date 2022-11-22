@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/*Inicio general*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    background: linear-gradient(45deg, rgba(129,41,251,1) 0%, rgba(65,174,245,1) 100%);
+    height: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+section{
+    width: 40%;
+    margin-top: 2rem;
+}
+/*Fin general*/
+header h1{
+    margin-top: .8rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif; 
+}
+/*Inicio formulario*/
+.formularios{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.addres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.addres2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.formularios-input-n{
+    width: 50%;
+    padding: .4rem 1vw;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.formularios label{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.formularios-input{
+    padding: .4rem;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem;
+}
+.formularios-input::placeholder{
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 0
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.btn{
+    width: 40%;
+    background-color: #259b9b;
+    padding: .6rem;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.btn:hover{
+    transform: scale(1.03);
+    background-color: #ff1964;
+}
+/*Fin formulario*/
+
+/*inicio video*/
+.video-yt{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.75);
+}
